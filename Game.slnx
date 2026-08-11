@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Game/Game.csproj" />
+  <Project Path="src/Game.FSharp/Game.FSharp.fsproj" />
+</Solution>

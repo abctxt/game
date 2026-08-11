@@ -1,0 +1,16 @@
+build/
+bin/
+obj/
+
+.vs/
+.vscode/
+.fleet/
+.idea/
+*.DotSettings
+*.user
+*.log
+*.local
+
+*.code-workspace
+.cursor/docs/*.md
+.cursor/rules/local-rules.mdc

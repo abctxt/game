@@ -1,0 +1,97 @@
+root = true
+
+[*]
+max_line_length = 180
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+charset = utf-8
+indent_style = space
+indent_size = 4
+
+[*.{json,yml,yaml,toml,xml,html,svg,slnx,csproj,fsproj}]
+indent_size = 2
+
+[*.svg]
+max_line_length = off
+
+
+# See: https://www.jetbrains.com/help/resharper/Reference__Code_Inspections_CSHARP.html
+[*.{cs,fs,fsx}]
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
+#dotnet_documentation_style = true
+#dotnet_documentation_style_allow_blank_lines = true
+resharper_empty_block_style = together
+#resharper_class_never_instantiated_global_highlighting = none
+#resharper_move_local_function_after_jump_statement_highlighting = none
+dotnet_naming_rule.interface_should_be_begins_with_i.severity = suggestion
+dotnet_naming_rule.interface_should_be_begins_with_i.symbols = interface
+dotnet_naming_rule.interface_should_be_begins_with_i.style = begins_with_i
+dotnet_naming_symbols.interface.applicable_kinds = interface
+dotnet_naming_style.begins_with_i.capitalization = pascal_case
+dotnet_naming_style.begins_with_i.required_prefix = I
+
+
+# See: https://fsprojects.github.io/fantomas/docs/end-users/Configuration.html
+# And: https://github.com/G-Research/fsharp-formatting-conventions
+[*.{fs,fsx}]
+#fsharp_max_line_length = 120
+#fsharp_max_tuple_width = 100
+#fsharp_max_let_binding_width = 100
+fsharp_experimental_keep_indent_in_branch = true
+fsharp_space_before_uppercase_invocation = false
+fsharp_space_before_lowercase_invocation = false
+fsharp_space_before_class_constructor = false
+fsharp_space_before_member = false
+fsharp_space_before_colon = false
+fsharp_space_after_comma = true
+fsharp_space_before_semicolon = false
+fsharp_space_after_semicolon = true
+fsharp_space_around_delimiter = true
+fsharp_max_if_then_short_width = 80
+fsharp_max_if_then_else_short_width = 100
+fsharp_max_infix_operator_expression = 100
+fsharp_max_record_width = 100
+fsharp_max_record_number_of_items = 10
+fsharp_record_multiline_formatter = number_of_items # character_width
+fsharp_max_array_or_list_width = 100
+fsharp_max_array_or_list_number_of_items = 10
+fsharp_array_or_list_multiline_formatter = number_of_items # character_width
+fsharp_max_value_binding_width = 100
+fsharp_max_function_binding_width = 100
+fsharp_newline_between_type_definition_and_members = true
+fsharp_align_function_signature_to_indentation = true
+fsharp_alternative_long_member_definitions = false
+fsharp_multi_line_lambda_closing_newline = false
+fsharp_bar_before_discriminated_union_declaration = false
+fsharp_blank_lines_around_nested_multiline_expressions = false
+fsharp_keep_max_number_of_blank_lines = 3
+fsharp_multiline_bracket_style = stroustrup
+fsharp_newline_before_multiline_computation_expression = true
+
+
+# See: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/csharp-formatting-options
+[*.cs]
+csharp_style_var_for_built_in_types = true
+csharp_space_after_cast = false
+csharp_new_line_before_open_brace = types, methods
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
+csharp_new_line_before_members_in_object_initializers = false
+csharp_indent_switch_labels = false
+csharp_indent_case_contents = true
+csharp_space_after_keywords_in_control_flow_statements = true
+csharp_preserve_single_line_blocks = true
+#csharp_style_expression_bodied_members = true
+csharp_style_expression_bodied_constructors = true
+csharp_style_expression_bodied_operators = true
+csharp_style_expression_bodied_properties = true
+csharp_style_expression_bodied_indexers = true
+csharp_style_expression_bodied_accessors = true
+csharp_style_throw_expression = true
+csharp_style_conditional_delegate_call = true
+csharp_style_pattern_matching_over_is_with_cast_check = true
+csharp_style_pattern_matching_over_as_with_null_check = true
+csharp_style_inlined_variable_declaration = true

@@ -1,0 +1,9 @@
+---
+description: Shared project rules and feature context
+alwaysApply: true
+applyTo: "**"
+---
+
+## Coding Rules
+
+- Always follow `.editorconfig` rules for indentation, whitespace, line endings, and final newline.
