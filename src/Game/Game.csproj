@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <OutputType>Exe</OutputType>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <InvariantGlobalization>true</InvariantGlobalization>
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
   </PropertyGroup>
@@ -15,10 +16,32 @@
     <PublishAot>true</PublishAot>
     <SelfContained>true</SelfContained>
     <PublishTrimmed>true</PublishTrimmed>
+    <!--<PublishDir>$(MSBuildThisFileDirectory)..\..\build\</PublishDir>-->
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ImGui.NET" Version="1.91.6.1" />
+    <PackageReference Include="SDL3-CS" Version="3.4.14.1" />
+    <PackageReference Include="SDL3-CS.Linux" Version="3.4.14.1" />
+    <PackageReference Include="SDL3-CS.Linux.Image" Version="3.4.4.10" />
+    <PackageReference Include="SDL3-CS.Linux.Mixer" Version="3.2.4.9" />
+    <PackageReference Include="SDL3-CS.Linux.TTF" Version="3.2.2.9" />
+    <PackageReference Include="SDL3-CS.MacOS" Version="3.4.14.1" />
+    <PackageReference Include="SDL3-CS.MacOS.Image" Version="3.4.4.10" />
+    <PackageReference Include="SDL3-CS.MacOS.Mixer" Version="3.2.4.9" />
+    <PackageReference Include="SDL3-CS.MacOS.TTF" Version="3.2.2.9" />
+    <PackageReference Include="SDL3-CS.Windows" Version="3.4.14.1" />
+    <PackageReference Include="SDL3-CS.Windows.Image" Version="3.4.4.10" />
+    <PackageReference Include="SDL3-CS.Windows.Mixer" Version="3.2.4.9" />
+    <PackageReference Include="SDL3-CS.Windows.TTF" Version="3.2.2.9" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Game.FSharp\Game.FSharp.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\**" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

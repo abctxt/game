@@ -14,3 +14,8 @@ obj/
 *.code-workspace
 .cursor/docs/*.md
 .cursor/rules/local-rules.mdc
+
+TestResults/
+
+src/Game/Assets/*
+!src/Game/Assets/ReadMe.md

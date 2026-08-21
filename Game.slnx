@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="src/Game/Game.csproj" />
   <Project Path="src/Game.FSharp/Game.FSharp.fsproj" />
+  <Project Path="src/Game.Start/Game.Start.csproj" />
+  <Project Path="tests/Game.Tests/Game.Tests.csproj" />
 </Solution>
