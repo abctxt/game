@@ -1,0 +1,121 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Game.Start.ViewModels"
+        xmlns:models="using:Game.Start.Models"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        d:DesignWidth="480"
+        d:DesignHeight="560"
+        x:Class="Game.Start.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Title="Game Rendering Setup"
+        Width="480"
+        Height="560"
+        CanResize="False"
+        WindowStartupLocation="CenterScreen">
+
+  <!-- Compiled bindings: https://docs.avaloniaui.net/docs/basics/data/data-binding/compiled-bindings -->
+  <Design.DataContext>
+    <vm:MainWindowViewModel />
+  </Design.DataContext>
+
+  <DockPanel Margin="12">
+    <Border DockPanel.Dock="Top"
+            Height="118"
+            Margin="0,0,0,12"
+            CornerRadius="2"
+            ClipToBounds="True"
+            Background="#1f3d22">
+      <Grid ColumnDefinitions="132,*">
+        <Canvas Width="120" Height="110" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="8,0,0,0">
+          <Ellipse Width="22" Height="28" Canvas.Left="78" Canvas.Top="28" Fill="#6bb24a" />
+          <Ellipse Width="86" Height="92" Canvas.Left="10" Canvas.Top="10" Fill="#5aa33d" />
+          <Ellipse Width="18" Height="22" Canvas.Left="28" Canvas.Top="42" Fill="#f4f0c8" />
+          <Ellipse Width="8" Height="10" Canvas.Left="34" Canvas.Top="48" Fill="#1a1a1a" />
+          <Ellipse Width="28" Height="16" Canvas.Left="48" Canvas.Top="68" Fill="#3d7a28" />
+        </Canvas>
+        <TextBlock Grid.Column="1"
+                   Text="GAME"
+                   FontSize="56"
+                   FontWeight="Black"
+                   Foreground="#f0a020"
+                   VerticalAlignment="Center"
+                   Margin="0,8,12,0" />
+      </Grid>
+    </Border>
+
+    <StackPanel DockPanel.Dock="Bottom" Margin="0,12,0,0" Spacing="8">
+      <TextBlock Text="{Binding ErrorMessage}"
+                 Foreground="#c04040"
+                 TextWrapping="Wrap"
+                 MaxHeight="72"
+                 IsVisible="{Binding ErrorMessage, Converter={x:Static ObjectConverters.IsNotNull}}" />
+      <StackPanel Orientation="Horizontal"
+                  HorizontalAlignment="Right"
+                  Spacing="8">
+        <Button Content="OK"
+                MinWidth="88"
+                HorizontalContentAlignment="Center"
+                IsDefault="True"
+                Command="{Binding AcceptCommand}" />
+        <Button Content="Cancel"
+                MinWidth="88"
+                HorizontalContentAlignment="Center"
+                IsCancel="True"
+                Command="{Binding CancelCommand}" />
+      </StackPanel>
+    </StackPanel>
+
+    <Grid DockPanel.Dock="Top"
+          ColumnDefinitions="Auto,*"
+          ColumnSpacing="8"
+          Margin="0,0,0,12">
+      <TextBlock Text="Rendering Subsystem:"
+                 VerticalAlignment="Center" />
+      <ComboBox Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                ItemsSource="{Binding Subsystems}"
+                SelectedItem="{Binding SelectedSubsystem}">
+        <ComboBox.ItemTemplate>
+          <DataTemplate x:DataType="models:RenderingSubsystem">
+            <TextBlock Text="{Binding Name}" />
+          </DataTemplate>
+        </ComboBox.ItemTemplate>
+      </ComboBox>
+    </Grid>
+
+    <DockPanel>
+      <TextBlock DockPanel.Dock="Top"
+                 Text="Rendering System Options"
+                 Margin="4,0,0,4" />
+      <Border BorderBrush="{DynamicResource ThemeBorderMidBrush}"
+              BorderThickness="1"
+              Padding="8"
+              CornerRadius="2">
+        <DockPanel>
+          <Grid DockPanel.Dock="Bottom"
+                ColumnDefinitions="Auto,*"
+                ColumnSpacing="8"
+                Margin="0,8,0,0">
+            <TextBlock MinWidth="140"
+                       VerticalAlignment="Center"
+                       Text="{Binding SelectedOption.Name}" />
+            <ComboBox Grid.Column="1"
+                      HorizontalAlignment="Stretch"
+                      ItemsSource="{Binding SelectedOption.Choices}"
+                      SelectedItem="{Binding SelectedOption.Value}" />
+          </Grid>
+          <ListBox ItemsSource="{Binding Options}"
+                   SelectedItem="{Binding SelectedOption}">
+            <ListBox.ItemTemplate>
+              <DataTemplate x:DataType="vm:RenderOptionViewModel">
+                <TextBlock Text="{Binding Display}" />
+              </DataTemplate>
+            </ListBox.ItemTemplate>
+          </ListBox>
+        </DockPanel>
+      </Border>
+    </DockPanel>
+  </DockPanel>
+</Window>
