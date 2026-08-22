@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <!-- Lock files record the current RID (SelfContained/PublishAot); enforcing them would fail restore on other platforms. -->
+    <RestoreLockedMode>false</RestoreLockedMode>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <!-- SDK FSharp.Core nupkg hash differs from nuget.org; locked CI restore then fails NU1403. -->
+    <DisableImplicitLibraryPacksFolder>true</DisableImplicitLibraryPacksFolder>
+  </PropertyGroup>
+</Project>

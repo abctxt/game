@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "ImGui.NET": {
+        "type": "Direct",
+        "requested": "[1.91.6.1, )",
+        "resolved": "1.91.6.1",
+        "contentHash": "Ph3j8pO6UM28PPJWP+5LEJSPVPkd8ivpVS8tRyY9b0IHn1HDIrMZ2o/FdiXaYW6YhNxMHmbevw6Jcfs+IDKi0Q=="
+      },
+      "Microsoft.DotNet.ILCompiler": {
+        "type": "Direct",
+        "requested": "[10.0.11, )",
+        "resolved": "10.0.11",
+        "contentHash": "yloFUsIQOzspIsn2cDHrbgikKaWHAZspzj0EWxnWJJpFC89IBW64OXgCECsrrnzGWQvy1iLX9r5/R4zBf7Am3g=="
+      },
+      "Microsoft.NET.ILLink.Tasks": {
+        "type": "Direct",
+        "requested": "[10.0.11, )",
+        "resolved": "10.0.11",
+        "contentHash": "IBf7lbovvjGWVWXZX5cJ/cO0WXbId0Zq4BuSeT94mGZuOAP66oMeH9PTBZ9Jpp3Jb6jtK0qm/NyUbPRo1gC/wQ=="
+      },
+      "SDL3-CS": {
+        "type": "Direct",
+        "requested": "[3.4.14.1, )",
+        "resolved": "3.4.14.1",
+        "contentHash": "o3X50ZpVw20wtCQZO/To9b5aesE22ZcYE9fL/2IOd4KCuT9q1DBsa8PHJJIcxt9sW4uHvjj8gP6n5KPMzzxeKA=="
+      },
+      "SDL3-CS.Linux": {
+        "type": "Direct",
+        "requested": "[3.4.14.1, )",
+        "resolved": "3.4.14.1",
+        "contentHash": "8nrQnkKPm0t48u659QEbYEpoJQ0puP1WlPX//NhbF48uZ2+ofOteKgZiXVS2iRLUEub15wWcyRs3QJDt+Hp0TQ=="
+      },
+      "SDL3-CS.Linux.Image": {
+        "type": "Direct",
+        "requested": "[3.4.4.10, )",
+        "resolved": "3.4.4.10",
+        "contentHash": "O/C/DRTkO77DVRWH2WJX353Sx+v8O6xqmHfmZyyX4DAXSyi/Ps6km/E8NOIYis9Z8Of39sQaO4dEnJkCDWPoVg=="
+      },
+      "SDL3-CS.Linux.Mixer": {
+        "type": "Direct",
+        "requested": "[3.2.4.9, )",
+        "resolved": "3.2.4.9",
+        "contentHash": "Zu3NkzxDGk38n+5OgL9A/2eYKinGmTd6WGSY+3iNzxYkL8ZeGWKkIbjhqtPkgoW8DWGGUAEieoIaUJiUfTKz6Q=="
+      },
+      "SDL3-CS.Linux.TTF": {
+        "type": "Direct",
+        "requested": "[3.2.2.9, )",
+        "resolved": "3.2.2.9",
+        "contentHash": "WDp/ldKfRgfVaHDNXI13+saVhGGwDigNEYInglzeEJWmANYIq12LLAFeJtH8D/X/bpi+Ff7l6/l/ycIKvSbKew=="
+      },
+      "SDL3-CS.MacOS": {
+        "type": "Direct",
+        "requested": "[3.4.14.1, )",
+        "resolved": "3.4.14.1",
+        "contentHash": "NmdjY4e583XljYhGoQ7YnvjjXNWCeOntfyRaOw85r7jfIAcjECenKMbG3QfWBdpiWFlJPkpKAMHiZlxNo5Dhdw=="
+      },
+      "SDL3-CS.MacOS.Image": {
+        "type": "Direct",
+        "requested": "[3.4.4.10, )",
+        "resolved": "3.4.4.10",
+        "contentHash": "rDvk/Tjhu0i0HUXEKCB8AZ0hhAj5nQ3plnumK+lb3KD5rUvThvMDQlLOwDZoEiBUael+diqZTbbiix4rvsZn5Q=="
+      },
+      "SDL3-CS.MacOS.Mixer": {
+        "type": "Direct",
+        "requested": "[3.2.4.9, )",
+        "resolved": "3.2.4.9",
+        "contentHash": "DfigQRkwEzGc4YJVxg737kSbGBdRh2qdZ9XtnWRa4zjPw5AYJKcZDdfJAUwERCx6Bc4A9oH//xRlt2UtF2dU5Q=="
+      },
+      "SDL3-CS.MacOS.TTF": {
+        "type": "Direct",
+        "requested": "[3.2.2.9, )",
+        "resolved": "3.2.2.9",
+        "contentHash": "TbliBiMHUtr5ZULZFGU1EDCF+Izuo337wptdNbVM7jaokcBXdo6Qn1by7Dl1rK/aoC9RoQKDCIL5L1h5/IGgvA=="
+      },
+      "SDL3-CS.Windows": {
+        "type": "Direct",
+        "requested": "[3.4.14.1, )",
+        "resolved": "3.4.14.1",
+        "contentHash": "Be2vHp02n5wWJgX3CGicmohg5+QjleULdbJgQtCKis+2r53VaIwTdt0OYx8wCARYCuS17OSHXj8AMhoCo41qyA=="
+      },
+      "SDL3-CS.Windows.Image": {
+        "type": "Direct",
+        "requested": "[3.4.4.10, )",
+        "resolved": "3.4.4.10",
+        "contentHash": "19lcSSXfH0P3C29Fqi45/9N1V0oNaSaXYBSXfWAsHhXBduWQw02yhxwE38QnyfEFE1Scaf7ZqwE8Mmj0+9KMOw=="
+      },
+      "SDL3-CS.Windows.Mixer": {
+        "type": "Direct",
+        "requested": "[3.2.4.9, )",
+        "resolved": "3.2.4.9",
+        "contentHash": "jemdCasKkFlOm9Ytakn9GifUMpNhoCMGiY4yH7qI8LrPa+DuUdiMpvrao7LpYMAZOeveEjKoTl97cP9WsUnImQ=="
+      },
+      "SDL3-CS.Windows.TTF": {
+        "type": "Direct",
+        "requested": "[3.2.2.9, )",
+        "resolved": "3.2.2.9",
+        "contentHash": "HZWddEECW06ybCyw2WMnIpov5j7uytgNvE4HD6mjyrf+gYwqxpMoaHeTti3HrmRs2IJWKa8+4Ry1RhoaMYnTQQ=="
+      },
+      "FSharp.Core": {
+        "type": "Transitive",
+        "resolved": "10.1.400",
+        "contentHash": "H9wlZ/tWgNp+Q4WQ5aUSi3XOBXrL6z+UkR0PNeyDFyoZR3c3PbtA21B9FqlthrhEwQ6f5AtQV0JLhBBDqjjscw=="
+      },
+      "game.fsharp": {
+        "type": "Project",
+        "dependencies": {
+          "FSharp.Core": "[10.1.400, )"
+        }
+      }
+    },
+    "net10.0/osx-arm64": {
+      "ImGui.NET": {
+        "type": "Direct",
+        "requested": "[1.91.6.1, )",
+        "resolved": "1.91.6.1",
+        "contentHash": "Ph3j8pO6UM28PPJWP+5LEJSPVPkd8ivpVS8tRyY9b0IHn1HDIrMZ2o/FdiXaYW6YhNxMHmbevw6Jcfs+IDKi0Q=="
+      },
+      "Microsoft.DotNet.ILCompiler": {
+        "type": "Direct",
+        "requested": "[10.0.11, )",
+        "resolved": "10.0.11",
+        "contentHash": "yloFUsIQOzspIsn2cDHrbgikKaWHAZspzj0EWxnWJJpFC89IBW64OXgCECsrrnzGWQvy1iLX9r5/R4zBf7Am3g==",
+        "dependencies": {
+          "runtime.osx-arm64.Microsoft.DotNet.ILCompiler": "10.0.11"
+        }
+      },
+      "SDL3-CS.Linux": {
+        "type": "Direct",
+        "requested": "[3.4.14.1, )",
+        "resolved": "3.4.14.1",
+        "contentHash": "8nrQnkKPm0t48u659QEbYEpoJQ0puP1WlPX//NhbF48uZ2+ofOteKgZiXVS2iRLUEub15wWcyRs3QJDt+Hp0TQ=="
+      },
+      "SDL3-CS.Linux.Image": {
+        "type": "Direct",
+        "requested": "[3.4.4.10, )",
+        "resolved": "3.4.4.10",
+        "contentHash": "O/C/DRTkO77DVRWH2WJX353Sx+v8O6xqmHfmZyyX4DAXSyi/Ps6km/E8NOIYis9Z8Of39sQaO4dEnJkCDWPoVg=="
+      },
+      "SDL3-CS.Linux.Mixer": {
+        "type": "Direct",
+        "requested": "[3.2.4.9, )",
+        "resolved": "3.2.4.9",
+        "contentHash": "Zu3NkzxDGk38n+5OgL9A/2eYKinGmTd6WGSY+3iNzxYkL8ZeGWKkIbjhqtPkgoW8DWGGUAEieoIaUJiUfTKz6Q=="
+      },
+      "SDL3-CS.Linux.TTF": {
+        "type": "Direct",
+        "requested": "[3.2.2.9, )",
+        "resolved": "3.2.2.9",
+        "contentHash": "WDp/ldKfRgfVaHDNXI13+saVhGGwDigNEYInglzeEJWmANYIq12LLAFeJtH8D/X/bpi+Ff7l6/l/ycIKvSbKew=="
+      },
+      "SDL3-CS.MacOS": {
+        "type": "Direct",
+        "requested": "[3.4.14.1, )",
+        "resolved": "3.4.14.1",
+        "contentHash": "NmdjY4e583XljYhGoQ7YnvjjXNWCeOntfyRaOw85r7jfIAcjECenKMbG3QfWBdpiWFlJPkpKAMHiZlxNo5Dhdw=="
+      },
+      "SDL3-CS.MacOS.Image": {
+        "type": "Direct",
+        "requested": "[3.4.4.10, )",
+        "resolved": "3.4.4.10",
+        "contentHash": "rDvk/Tjhu0i0HUXEKCB8AZ0hhAj5nQ3plnumK+lb3KD5rUvThvMDQlLOwDZoEiBUael+diqZTbbiix4rvsZn5Q=="
+      },
+      "SDL3-CS.MacOS.Mixer": {
+        "type": "Direct",
+        "requested": "[3.2.4.9, )",
+        "resolved": "3.2.4.9",
+        "contentHash": "DfigQRkwEzGc4YJVxg737kSbGBdRh2qdZ9XtnWRa4zjPw5AYJKcZDdfJAUwERCx6Bc4A9oH//xRlt2UtF2dU5Q=="
+      },
+      "SDL3-CS.MacOS.TTF": {
+        "type": "Direct",
+        "requested": "[3.2.2.9, )",
+        "resolved": "3.2.2.9",
+        "contentHash": "TbliBiMHUtr5ZULZFGU1EDCF+Izuo337wptdNbVM7jaokcBXdo6Qn1by7Dl1rK/aoC9RoQKDCIL5L1h5/IGgvA=="
+      },
+      "SDL3-CS.Windows": {
+        "type": "Direct",
+        "requested": "[3.4.14.1, )",
+        "resolved": "3.4.14.1",
+        "contentHash": "Be2vHp02n5wWJgX3CGicmohg5+QjleULdbJgQtCKis+2r53VaIwTdt0OYx8wCARYCuS17OSHXj8AMhoCo41qyA=="
+      },
+      "SDL3-CS.Windows.Image": {
+        "type": "Direct",
+        "requested": "[3.4.4.10, )",
+        "resolved": "3.4.4.10",
+        "contentHash": "19lcSSXfH0P3C29Fqi45/9N1V0oNaSaXYBSXfWAsHhXBduWQw02yhxwE38QnyfEFE1Scaf7ZqwE8Mmj0+9KMOw=="
+      },
+      "SDL3-CS.Windows.Mixer": {
+        "type": "Direct",
+        "requested": "[3.2.4.9, )",
+        "resolved": "3.2.4.9",
+        "contentHash": "jemdCasKkFlOm9Ytakn9GifUMpNhoCMGiY4yH7qI8LrPa+DuUdiMpvrao7LpYMAZOeveEjKoTl97cP9WsUnImQ=="
+      },
+      "SDL3-CS.Windows.TTF": {
+        "type": "Direct",
+        "requested": "[3.2.2.9, )",
+        "resolved": "3.2.2.9",
+        "contentHash": "HZWddEECW06ybCyw2WMnIpov5j7uytgNvE4HD6mjyrf+gYwqxpMoaHeTti3HrmRs2IJWKa8+4Ry1RhoaMYnTQQ=="
+      },
+      "runtime.osx-arm64.Microsoft.DotNet.ILCompiler": {
+        "type": "Transitive",
+        "resolved": "10.0.11",
+        "contentHash": "4cxybmyqJI3zZIKkNM1Ft0aq6Q4q6b4SJ11Np5j9lrHHurfheI66dUshpZD/UEMjMqAdg9O03AABAYLYSUzwyw=="
+      }
+    }
+  }
+}

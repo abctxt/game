@@ -1,0 +1,25 @@
+name: Continuous Integration (CI)
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-dotnet@v5
+        with:
+          cache: true
+          cache-dependency-path: "**/packages.lock.json"
+
+      - name: Run 'dotnet build'
+        run: dotnet build -c Release -v minimal
+
+      - name: Run 'dotnet test'
+        run: dotnet test --no-build --project tests/Game.Tests/Game.Tests.csproj -c Release -v minimal
