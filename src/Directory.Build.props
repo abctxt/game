@@ -1,6 +1,7 @@
 <Project>
   <PropertyGroup>
+    <!-- Lock files record the current RID (SelfContained/PublishAot); enforcing them would fail restore on other platforms. -->
+    <RestoreLockedMode>false</RestoreLockedMode>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
-    <RestoreLockedMode Condition="'$(CI)' == 'true'">true</RestoreLockedMode>
   </PropertyGroup>
 </Project>
