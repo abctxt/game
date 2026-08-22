@@ -1,6 +1,6 @@
 # Game Simulator
 
-A game simulation, experimentation, and visualization tool.
+A 2D game simulation, experimentation, and visualization tool.
 
 The runtime is built on [SDL3-CS](https://github.com/edwardgushchin/SDL3-CS) for windows, rendering, input, audio, and fonts, with [ImGui.NET](https://github.com/ImGuiNET/ImGui.NET) for in-view debug and experiment UI. The long-term aim is a place to run scenarios, tweak parameters, and watch the result.
 
