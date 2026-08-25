@@ -7,3 +7,8 @@ applyTo: "**"
 ## Coding Rules
 
 - Always follow `.editorconfig` rules for indentation, whitespace, line endings, and final newline.
+
+## Git Usage
+
+- Do not create commits automatically or proactively. Commit only when the user explicitly asks to commit.
+- Commit message subject (first line): no trailing period. The body below may use normal sentence punctuation, including periods.
