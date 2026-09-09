@@ -21,19 +21,19 @@
 
   <ItemGroup>
     <PackageReference Include="ImGui.NET" Version="1.91.6.1" />
-    <PackageReference Include="SDL3-CS" Version="3.4.14.1" />
-    <PackageReference Include="SDL3-CS.Linux" Version="3.4.14.1" />
-    <PackageReference Include="SDL3-CS.Linux.Image" Version="3.4.4.10" />
-    <PackageReference Include="SDL3-CS.Linux.Mixer" Version="3.2.4.9" />
-    <PackageReference Include="SDL3-CS.Linux.TTF" Version="3.2.2.9" />
-    <PackageReference Include="SDL3-CS.MacOS" Version="3.4.14.1" />
-    <PackageReference Include="SDL3-CS.MacOS.Image" Version="3.4.4.10" />
-    <PackageReference Include="SDL3-CS.MacOS.Mixer" Version="3.2.4.9" />
-    <PackageReference Include="SDL3-CS.MacOS.TTF" Version="3.2.2.9" />
-    <PackageReference Include="SDL3-CS.Windows" Version="3.4.14.1" />
-    <PackageReference Include="SDL3-CS.Windows.Image" Version="3.4.4.10" />
-    <PackageReference Include="SDL3-CS.Windows.Mixer" Version="3.2.4.9" />
-    <PackageReference Include="SDL3-CS.Windows.TTF" Version="3.2.2.9" />
+    <PackageReference Include="SDL3-CS" Version="3.4.16" />
+    <PackageReference Include="SDL3-CS.Linux" Version="3.4.16" />
+    <PackageReference Include="SDL3-CS.Linux.Image" Version="3.4.6.9" />
+    <PackageReference Include="SDL3-CS.Linux.Mixer" Version="3.2.4.11" />
+    <PackageReference Include="SDL3-CS.Linux.TTF" Version="3.2.2.11" />
+    <PackageReference Include="SDL3-CS.MacOS" Version="3.4.16" />
+    <PackageReference Include="SDL3-CS.MacOS.Image" Version="3.4.6.9" />
+    <PackageReference Include="SDL3-CS.MacOS.Mixer" Version="3.2.4.11" />
+    <PackageReference Include="SDL3-CS.MacOS.TTF" Version="3.2.2.11" />
+    <PackageReference Include="SDL3-CS.Windows" Version="3.4.16" />
+    <PackageReference Include="SDL3-CS.Windows.Image" Version="3.4.6.9" />
+    <PackageReference Include="SDL3-CS.Windows.Mixer" Version="3.2.4.11" />
+    <PackageReference Include="SDL3-CS.Windows.TTF" Version="3.2.2.11" />
   </ItemGroup>
 
   <ItemGroup>
