@@ -6,6 +6,7 @@ using SDL3;
 
 namespace Game;
 
+
 /// <summary>
 /// SDL_Renderer backend for ImGui.NET, adapted from
 /// https://github.com/behindcurtain3/SDL3-ImGui

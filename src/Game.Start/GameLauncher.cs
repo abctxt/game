@@ -5,6 +5,7 @@ using Game.Start.ViewModels;
 
 namespace Game.Start;
 
+
 public static class GameLauncher
 {
     public static string GameFileName => OperatingSystem.IsWindows() ? "game.exe" : "game";
@@ -73,8 +74,7 @@ public static class GameLauncher
             return OperatingSystem.IsWindows()
                 ? StartWindows(path, arguments, workingDirectory, out error, out processId)
                 : StartUnixDetached(path, arguments, workingDirectory, out error, out processId);
-        }
-        catch (Exception ex) {
+        } catch (Exception ex) {
             error = $"Failed to start game: {ex.Message}";
             return false;
         }
@@ -157,9 +157,7 @@ public static class GameLauncher
                 error = null;
                 return true;
             }
-        }
-        catch (ArgumentException) {
-        }
+        } catch (ArgumentException) { }
 
         error = ReadLaunchLog(logPath, $"Game exited immediately ({path})");
         return false;
@@ -191,9 +189,7 @@ public static class GameLauncher
                     return text;
                 }
             }
-        }
-        catch (IOException) {
-        }
+        } catch (IOException) { }
 
         return fallback;
     }
@@ -225,9 +221,7 @@ public static class GameLauncher
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
             })?.WaitForExit(1000);
-        }
-        catch (Exception) {
-        }
+        } catch (Exception) { }
     }
 
     [SupportedOSPlatform("macos")]
