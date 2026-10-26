@@ -2,6 +2,7 @@ using Game.Start.ViewModels;
 
 namespace Game.Start.Models;
 
+
 public sealed class RenderingSubsystem
 {
     public RenderingSubsystem(string name, IReadOnlyList<RenderOptionViewModel> options)

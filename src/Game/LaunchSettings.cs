@@ -1,5 +1,6 @@
 namespace Game;
 
+
 internal readonly record struct LaunchSettings(int Width, int Height, bool Fullscreen, bool VSync)
 {
     public static LaunchSettings Default { get; } = new(1024, 768, Fullscreen: false, VSync: true);

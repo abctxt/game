@@ -4,6 +4,7 @@ using SDL3;
 
 namespace Game;
 
+
 internal static class Program
 {
     private const float CursorSize = 50f;

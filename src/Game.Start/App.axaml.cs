@@ -6,6 +6,7 @@ using Game.Start.Views;
 
 namespace Game.Start;
 
+
 public partial class App : Application
 {
     public override void Initialize()

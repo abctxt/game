@@ -10,103 +10,103 @@
       },
       "Microsoft.DotNet.ILCompiler": {
         "type": "Direct",
-        "requested": "[10.0.11, )",
-        "resolved": "10.0.11",
-        "contentHash": "yloFUsIQOzspIsn2cDHrbgikKaWHAZspzj0EWxnWJJpFC89IBW64OXgCECsrrnzGWQvy1iLX9r5/R4zBf7Am3g=="
+        "requested": "[10.0.12, )",
+        "resolved": "10.0.12",
+        "contentHash": "AawF393Q+VkdrnrnI1gu612zh5iqpa1AGSvnKCQ3IkMgSKJXIQbO1sXYRgEzOU4f0cPZ6MaCCF29xZSGWlmbuQ=="
       },
       "Microsoft.NET.ILLink.Tasks": {
         "type": "Direct",
-        "requested": "[10.0.12, )",
-        "resolved": "10.0.12",
-        "contentHash": "xi+BDjFpW+Sb+MHFHaH6Y/gV9I8BluFwRXc1QyCdoZbIK26eNiBeFuMTe/FMwc33G1wdHCyDg7CVTmb8OdQrMQ=="
+        "requested": "[10.0.14, )",
+        "resolved": "10.0.14",
+        "contentHash": "YlTamXppEQls6DYWt7RdUuwWDb0lyw/vXCaGeQpLCpsLmfwGuCkOz/vIGgMTV7ECsJcavkCOkxZXv9s8rdAHkQ=="
       },
       "SDL3-CS": {
         "type": "Direct",
-        "requested": "[3.4.16, )",
-        "resolved": "3.4.16",
-        "contentHash": "iUflNvlk5dsKwjBugy7tGB2Av/t2hp3OYnpgb1/dLrxMjWQVAd4Wayl5fmBv/z3xH8I8IeD+m0K1e+42AnYb8w=="
+        "requested": "[3.4.18.1, )",
+        "resolved": "3.4.18.1",
+        "contentHash": "1ywJGaErHL7hCNgWoAhrqV1riQ3g1PFmprJhtPCw0YJSs/ZTdChxoMHQa679IzFX86Oa95rZTLNMyYaJNj9QyQ=="
       },
       "SDL3-CS.Linux": {
         "type": "Direct",
-        "requested": "[3.4.16, )",
-        "resolved": "3.4.16",
-        "contentHash": "jC1+e5CVbeNCsF7mdZaCqgD2rPY8RCsGdMxzokxjj+ZNNu3Nzc9esl+z6tFCGuHd2kg2565t8zIVI5Up0GoQmg=="
+        "requested": "[3.4.18.1, )",
+        "resolved": "3.4.18.1",
+        "contentHash": "0D5kTnaNnHKvLAOvzPJRIbyWDYq09ePVJZqlsPxp5HjM3jw0wIzyv9uLb+tPKuNiTq1nl5Zzbj1YjpjjWbGWxw=="
       },
       "SDL3-CS.Linux.Image": {
         "type": "Direct",
-        "requested": "[3.4.6.9, )",
-        "resolved": "3.4.6.9",
-        "contentHash": "aL5giGdr01CUfqox0os5cVNuRkkgsUn880BGWcyAxGhALBlduFkNkYPXKj1CqBoM2c/D67//vhbhz4+r31s+cg=="
+        "requested": "[3.4.8, )",
+        "resolved": "3.4.8",
+        "contentHash": "dVGeCLdNURTODOQgcYKJdXY1Hud9suYc4008iC8820XUQwhTUFXDcf5LnlTpGJy710j7Kg72z0Je0oibvaUeLQ=="
       },
       "SDL3-CS.Linux.Mixer": {
         "type": "Direct",
-        "requested": "[3.2.4.11, )",
-        "resolved": "3.2.4.11",
-        "contentHash": "/zwepHYFGL0R+lvK9aybCtu2jyRf35l/2t7yiscpFMB3eFaCH9otmSnV1F8u3a7Z0AeqfrqS5q2oaMgwVt16Zg=="
+        "requested": "[3.2.4.14, )",
+        "resolved": "3.2.4.14",
+        "contentHash": "LBpvdomblOy4V4VvAD8Zug3oW8rA1Pl95T5OauWTt22VZddjIUVXvtQRayO9VujypvbA7yENyYTXlmA+d0EJZw=="
       },
       "SDL3-CS.Linux.TTF": {
         "type": "Direct",
-        "requested": "[3.2.2.11, )",
-        "resolved": "3.2.2.11",
-        "contentHash": "aTpyIa+nY6dm5AbDoK+tyGlytbH4PxzRq+C1OcyhSWdXiwfYp0WWYEuwHv4P2XgZYhz90M7oH8HAU75RfE6e2g=="
+        "requested": "[3.2.2.14, )",
+        "resolved": "3.2.2.14",
+        "contentHash": "yph3r9Afy3zrEOL9r6RubEV/92Wvgv0TOWjY9sMWFlFb210/A1YzjLb8mfnAo4WJnML/U1zIF4PKX8erG0Actg=="
       },
       "SDL3-CS.MacOS": {
         "type": "Direct",
-        "requested": "[3.4.16, )",
-        "resolved": "3.4.16",
-        "contentHash": "l+Mg9TGhMzZeCBui24WOL7+9YF/PEdN9FVGpBuqmUxCr9LrLMAIHsXD2j2uN5NYdiQmGhNpZ59fGP2BWqPTeHA=="
+        "requested": "[3.4.18.1, )",
+        "resolved": "3.4.18.1",
+        "contentHash": "dkxWPh1Yh1h6zGLNczE+9sF+lKgN6y529WTffeCWmn1MYZgvjS+aH5jrSUIhGnQze8NxG+jt6AlQ+MSCQmWaCQ=="
       },
       "SDL3-CS.MacOS.Image": {
         "type": "Direct",
-        "requested": "[3.4.6.9, )",
-        "resolved": "3.4.6.9",
-        "contentHash": "K9Gl0dwVLd8XbFJJSOPByVACRvirnnFaGZUL7O2G0mua5otZPGKByZNsRoG18PWh1UDPyxCcWq/IhbFWgrDiQQ=="
+        "requested": "[3.4.8, )",
+        "resolved": "3.4.8",
+        "contentHash": "98U789UGFuL8QYtrmK1YEQj1PWHtGoISMRVyMzOPb4lwwpPh7wdKEbIXIt/0950NfSKofwIH+yBlaPeOZumhPQ=="
       },
       "SDL3-CS.MacOS.Mixer": {
         "type": "Direct",
-        "requested": "[3.2.4.11, )",
-        "resolved": "3.2.4.11",
-        "contentHash": "RbZc3a3UgLJsOCvb0unwxHFJhM2Jtiwes4c4tmh1/fIckCSRbl/VdMMqw8Yxsppi6NyM1PHhbopXmTQgKXbHCw=="
+        "requested": "[3.2.4.14, )",
+        "resolved": "3.2.4.14",
+        "contentHash": "PKFOIe1ix8rQql0MI+NZDcghkIkQcnakXEVmw4T5uxcd+Kbg8lqC8UfTKrjL5Niz7CT641djMGGScAdnIks+ag=="
       },
       "SDL3-CS.MacOS.TTF": {
         "type": "Direct",
-        "requested": "[3.2.2.11, )",
-        "resolved": "3.2.2.11",
-        "contentHash": "nCfnbPYbEoLX3OtviFuoqekLPRhy55Li0Xypj9NPMPjyIsG5WKBUo7J/VW2y2+nnKuPfr1tI9gCJs5OPgA2v6w=="
+        "requested": "[3.2.2.14, )",
+        "resolved": "3.2.2.14",
+        "contentHash": "Uq6JvgeWd1YWOaJPSZS8t/AtDufmTUvPTbBgmGU7L+mXPvr9w54OZmnwZ6W0a3ROqIiAFj+Olswunu05BvJtFg=="
       },
       "SDL3-CS.Windows": {
         "type": "Direct",
-        "requested": "[3.4.16, )",
-        "resolved": "3.4.16",
-        "contentHash": "fz7LopbxaH/VI2XgrxTKPSK6oPN/su/OdubKa7aCmu/dP7IWhHrqGEirGmoPy5XgRf6GZyNJaBsNi7S5NKkuZw=="
+        "requested": "[3.4.18.1, )",
+        "resolved": "3.4.18.1",
+        "contentHash": "baR3Y/1FgnevQyIfo2pDwIXF8idzqf17pDOF87qZrykBxQ0nlTzYCyu6H6GZsZdm06rQuqPU8p2NZ3qAvuvRpw=="
       },
       "SDL3-CS.Windows.Image": {
         "type": "Direct",
-        "requested": "[3.4.6.9, )",
-        "resolved": "3.4.6.9",
-        "contentHash": "mtMBuBRhT21pyUVk6d3fJj3+O8NgEPdNSkvikT1XrmyZKypkddol++u/6boq3PyRagkldTy7sjYfLS5if1LKgQ=="
+        "requested": "[3.4.8, )",
+        "resolved": "3.4.8",
+        "contentHash": "olUmnqU8dfcq0waOhbErOFOjoORd11De4vHdBfbWrQqeqaOkCw7Wkpah0mdxy43fZutDWiTEg6NNKon2PV7L5w=="
       },
       "SDL3-CS.Windows.Mixer": {
         "type": "Direct",
-        "requested": "[3.2.4.11, )",
-        "resolved": "3.2.4.11",
-        "contentHash": "+EI+P9wPlLVG2pR5QdEo8io+Kp9CyHe8rbzwtm/BuFfmIvoJ70S0v0F9qURoJRZiDnVQ6YhlfQQ6L1OD51CDdw=="
+        "requested": "[3.2.4.14, )",
+        "resolved": "3.2.4.14",
+        "contentHash": "hz4ct3mwpyFYl+og54KT41bbxJveRMAYce/yIKv/XTyj01y+1zDdeCV98TDzZxEtagu8Op82VT5rwO+Q8i+/MQ=="
       },
       "SDL3-CS.Windows.TTF": {
         "type": "Direct",
-        "requested": "[3.2.2.11, )",
-        "resolved": "3.2.2.11",
-        "contentHash": "jeqP5erfZQCsKKzVsouw0uMuQFNp/0cc4U6wW+nC5XTcXXEaA8Lodx+IfBbJSXQ1Poc0fFAB9O8ke7OYXzSFwA=="
+        "requested": "[3.2.2.14, )",
+        "resolved": "3.2.2.14",
+        "contentHash": "AB9VK20aYt04STPVwM1Cd4+b0zACKBhaMlviCrnFGBbgCVHXXr9OomgkComYHhNCjaSroMY3041QW8t2tk16Xw=="
       },
       "FSharp.Core": {
         "type": "Transitive",
-        "resolved": "10.1.401",
-        "contentHash": "/lvOK51KD8IangBYkfDVna3/HrE/r4VUnX3dI01KDspctoYXmind3POeoYkqWKeXHwiKlf6Hc9TxwSnoSCWcjw=="
+        "resolved": "10.1.403",
+        "contentHash": "SpKxPt90eSC3pfSKGLnSyucXXKVWokv1KVMTy2uQG36seOgJg14qUxjlcaWjZNWgxJtG5MeH9WpI6PQg4OR4tA=="
       },
       "game.fsharp": {
         "type": "Project",
         "dependencies": {
-          "FSharp.Core": "[10.1.401, )"
+          "FSharp.Core": "[10.1.403, )"
         }
       }
     },
@@ -119,89 +119,89 @@
       },
       "Microsoft.DotNet.ILCompiler": {
         "type": "Direct",
-        "requested": "[10.0.11, )",
-        "resolved": "10.0.11",
-        "contentHash": "yloFUsIQOzspIsn2cDHrbgikKaWHAZspzj0EWxnWJJpFC89IBW64OXgCECsrrnzGWQvy1iLX9r5/R4zBf7Am3g==",
+        "requested": "[10.0.12, )",
+        "resolved": "10.0.12",
+        "contentHash": "AawF393Q+VkdrnrnI1gu612zh5iqpa1AGSvnKCQ3IkMgSKJXIQbO1sXYRgEzOU4f0cPZ6MaCCF29xZSGWlmbuQ==",
         "dependencies": {
-          "runtime.osx-arm64.Microsoft.DotNet.ILCompiler": "10.0.11"
+          "runtime.osx-arm64.Microsoft.DotNet.ILCompiler": "10.0.12"
         }
       },
       "SDL3-CS.Linux": {
         "type": "Direct",
-        "requested": "[3.4.16, )",
-        "resolved": "3.4.16",
-        "contentHash": "jC1+e5CVbeNCsF7mdZaCqgD2rPY8RCsGdMxzokxjj+ZNNu3Nzc9esl+z6tFCGuHd2kg2565t8zIVI5Up0GoQmg=="
+        "requested": "[3.4.18.1, )",
+        "resolved": "3.4.18.1",
+        "contentHash": "0D5kTnaNnHKvLAOvzPJRIbyWDYq09ePVJZqlsPxp5HjM3jw0wIzyv9uLb+tPKuNiTq1nl5Zzbj1YjpjjWbGWxw=="
       },
       "SDL3-CS.Linux.Image": {
         "type": "Direct",
-        "requested": "[3.4.6.9, )",
-        "resolved": "3.4.6.9",
-        "contentHash": "aL5giGdr01CUfqox0os5cVNuRkkgsUn880BGWcyAxGhALBlduFkNkYPXKj1CqBoM2c/D67//vhbhz4+r31s+cg=="
+        "requested": "[3.4.8, )",
+        "resolved": "3.4.8",
+        "contentHash": "dVGeCLdNURTODOQgcYKJdXY1Hud9suYc4008iC8820XUQwhTUFXDcf5LnlTpGJy710j7Kg72z0Je0oibvaUeLQ=="
       },
       "SDL3-CS.Linux.Mixer": {
         "type": "Direct",
-        "requested": "[3.2.4.11, )",
-        "resolved": "3.2.4.11",
-        "contentHash": "/zwepHYFGL0R+lvK9aybCtu2jyRf35l/2t7yiscpFMB3eFaCH9otmSnV1F8u3a7Z0AeqfrqS5q2oaMgwVt16Zg=="
+        "requested": "[3.2.4.14, )",
+        "resolved": "3.2.4.14",
+        "contentHash": "LBpvdomblOy4V4VvAD8Zug3oW8rA1Pl95T5OauWTt22VZddjIUVXvtQRayO9VujypvbA7yENyYTXlmA+d0EJZw=="
       },
       "SDL3-CS.Linux.TTF": {
         "type": "Direct",
-        "requested": "[3.2.2.11, )",
-        "resolved": "3.2.2.11",
-        "contentHash": "aTpyIa+nY6dm5AbDoK+tyGlytbH4PxzRq+C1OcyhSWdXiwfYp0WWYEuwHv4P2XgZYhz90M7oH8HAU75RfE6e2g=="
+        "requested": "[3.2.2.14, )",
+        "resolved": "3.2.2.14",
+        "contentHash": "yph3r9Afy3zrEOL9r6RubEV/92Wvgv0TOWjY9sMWFlFb210/A1YzjLb8mfnAo4WJnML/U1zIF4PKX8erG0Actg=="
       },
       "SDL3-CS.MacOS": {
         "type": "Direct",
-        "requested": "[3.4.16, )",
-        "resolved": "3.4.16",
-        "contentHash": "l+Mg9TGhMzZeCBui24WOL7+9YF/PEdN9FVGpBuqmUxCr9LrLMAIHsXD2j2uN5NYdiQmGhNpZ59fGP2BWqPTeHA=="
+        "requested": "[3.4.18.1, )",
+        "resolved": "3.4.18.1",
+        "contentHash": "dkxWPh1Yh1h6zGLNczE+9sF+lKgN6y529WTffeCWmn1MYZgvjS+aH5jrSUIhGnQze8NxG+jt6AlQ+MSCQmWaCQ=="
       },
       "SDL3-CS.MacOS.Image": {
         "type": "Direct",
-        "requested": "[3.4.6.9, )",
-        "resolved": "3.4.6.9",
-        "contentHash": "K9Gl0dwVLd8XbFJJSOPByVACRvirnnFaGZUL7O2G0mua5otZPGKByZNsRoG18PWh1UDPyxCcWq/IhbFWgrDiQQ=="
+        "requested": "[3.4.8, )",
+        "resolved": "3.4.8",
+        "contentHash": "98U789UGFuL8QYtrmK1YEQj1PWHtGoISMRVyMzOPb4lwwpPh7wdKEbIXIt/0950NfSKofwIH+yBlaPeOZumhPQ=="
       },
       "SDL3-CS.MacOS.Mixer": {
         "type": "Direct",
-        "requested": "[3.2.4.11, )",
-        "resolved": "3.2.4.11",
-        "contentHash": "RbZc3a3UgLJsOCvb0unwxHFJhM2Jtiwes4c4tmh1/fIckCSRbl/VdMMqw8Yxsppi6NyM1PHhbopXmTQgKXbHCw=="
+        "requested": "[3.2.4.14, )",
+        "resolved": "3.2.4.14",
+        "contentHash": "PKFOIe1ix8rQql0MI+NZDcghkIkQcnakXEVmw4T5uxcd+Kbg8lqC8UfTKrjL5Niz7CT641djMGGScAdnIks+ag=="
       },
       "SDL3-CS.MacOS.TTF": {
         "type": "Direct",
-        "requested": "[3.2.2.11, )",
-        "resolved": "3.2.2.11",
-        "contentHash": "nCfnbPYbEoLX3OtviFuoqekLPRhy55Li0Xypj9NPMPjyIsG5WKBUo7J/VW2y2+nnKuPfr1tI9gCJs5OPgA2v6w=="
+        "requested": "[3.2.2.14, )",
+        "resolved": "3.2.2.14",
+        "contentHash": "Uq6JvgeWd1YWOaJPSZS8t/AtDufmTUvPTbBgmGU7L+mXPvr9w54OZmnwZ6W0a3ROqIiAFj+Olswunu05BvJtFg=="
       },
       "SDL3-CS.Windows": {
         "type": "Direct",
-        "requested": "[3.4.16, )",
-        "resolved": "3.4.16",
-        "contentHash": "fz7LopbxaH/VI2XgrxTKPSK6oPN/su/OdubKa7aCmu/dP7IWhHrqGEirGmoPy5XgRf6GZyNJaBsNi7S5NKkuZw=="
+        "requested": "[3.4.18.1, )",
+        "resolved": "3.4.18.1",
+        "contentHash": "baR3Y/1FgnevQyIfo2pDwIXF8idzqf17pDOF87qZrykBxQ0nlTzYCyu6H6GZsZdm06rQuqPU8p2NZ3qAvuvRpw=="
       },
       "SDL3-CS.Windows.Image": {
         "type": "Direct",
-        "requested": "[3.4.6.9, )",
-        "resolved": "3.4.6.9",
-        "contentHash": "mtMBuBRhT21pyUVk6d3fJj3+O8NgEPdNSkvikT1XrmyZKypkddol++u/6boq3PyRagkldTy7sjYfLS5if1LKgQ=="
+        "requested": "[3.4.8, )",
+        "resolved": "3.4.8",
+        "contentHash": "olUmnqU8dfcq0waOhbErOFOjoORd11De4vHdBfbWrQqeqaOkCw7Wkpah0mdxy43fZutDWiTEg6NNKon2PV7L5w=="
       },
       "SDL3-CS.Windows.Mixer": {
         "type": "Direct",
-        "requested": "[3.2.4.11, )",
-        "resolved": "3.2.4.11",
-        "contentHash": "+EI+P9wPlLVG2pR5QdEo8io+Kp9CyHe8rbzwtm/BuFfmIvoJ70S0v0F9qURoJRZiDnVQ6YhlfQQ6L1OD51CDdw=="
+        "requested": "[3.2.4.14, )",
+        "resolved": "3.2.4.14",
+        "contentHash": "hz4ct3mwpyFYl+og54KT41bbxJveRMAYce/yIKv/XTyj01y+1zDdeCV98TDzZxEtagu8Op82VT5rwO+Q8i+/MQ=="
       },
       "SDL3-CS.Windows.TTF": {
         "type": "Direct",
-        "requested": "[3.2.2.11, )",
-        "resolved": "3.2.2.11",
-        "contentHash": "jeqP5erfZQCsKKzVsouw0uMuQFNp/0cc4U6wW+nC5XTcXXEaA8Lodx+IfBbJSXQ1Poc0fFAB9O8ke7OYXzSFwA=="
+        "requested": "[3.2.2.14, )",
+        "resolved": "3.2.2.14",
+        "contentHash": "AB9VK20aYt04STPVwM1Cd4+b0zACKBhaMlviCrnFGBbgCVHXXr9OomgkComYHhNCjaSroMY3041QW8t2tk16Xw=="
       },
       "runtime.osx-arm64.Microsoft.DotNet.ILCompiler": {
         "type": "Transitive",
-        "resolved": "10.0.11",
-        "contentHash": "4cxybmyqJI3zZIKkNM1Ft0aq6Q4q6b4SJ11Np5j9lrHHurfheI66dUshpZD/UEMjMqAdg9O03AABAYLYSUzwyw=="
+        "resolved": "10.0.12",
+        "contentHash": "WwM79vRmPYfsV7wVjFVYaZWc853weM+HpY917SbWI52go/PU+A2L24fMaGkYB3bunhjiLb/SMNlNT0fuyjbQqA=="
       }
     }
   }

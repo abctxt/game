@@ -3,6 +3,7 @@
   <PropertyGroup>
     <RootNamespace>Game</RootNamespace>
     <TargetFramework>net10.0</TargetFramework>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <IsPackable>false</IsPackable>
   </PropertyGroup>

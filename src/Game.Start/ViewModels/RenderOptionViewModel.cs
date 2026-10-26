@@ -2,6 +2,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Game.Start.ViewModels;
 
+
 public sealed partial class RenderOptionViewModel : ViewModelBase
 {
     public RenderOptionViewModel(string name, string value, IReadOnlyList<string> choices)

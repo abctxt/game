@@ -5,6 +5,7 @@ using Game.Start.ViewModels;
 
 namespace Game.Tests;
 
+
 public class RenderOptionViewModelTests
 {
     [Test]
